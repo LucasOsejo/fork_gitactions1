@@ -1,5 +1,5 @@
 on: 
-workflow_Lucas:
+workflow_dispatch:
 
 jobs:
   say_hello:
