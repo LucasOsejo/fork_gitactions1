@@ -1,0 +1,23 @@
+name: Practica1
+on:
+  workflow_dispatch:
+ 
+env:
+  JUGADOR: "Gustavo Puerta"
+
+jobs:
+  Jug1:
+  name: Jug1
+  runs-on: ubuntu-latest
+  steps:
+    - name: Mostrar jugador
+      run: echo "El futuro de Colombia es: $JUGADOR"
+
+  Jug2:
+  name: Jug2
+  runs-on: ubuntu-latest
+  steps:
+    - name: Mostrar jugador
+      run: echo "La decepcion de Colombia es: $JUGADOR"
+
+
