@@ -11,13 +11,13 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: Mostrar jugador
-      run: echo "El futuro de Colombia es: ${{env.JUGADOR}} "
+      run: echo "El futuro de Colombia es ${{env.JUGADOR}}"
 
   Jug2:
   name: Jug2
   runs-on: ubuntu-latest
   steps:
     - name: Mostrar jugador
-      run: echo "La decepcion de Colombia es: ${{env.JUGADOR}}"
+      run: echo "La decepcion de Colombia es ${{env.JUGADOR}}"
 
 
